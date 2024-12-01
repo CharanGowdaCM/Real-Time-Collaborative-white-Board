@@ -1,0 +1,66 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .title {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .main {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background: rgb(230, 230, 230);
+    padding: 10px;
+    overflow-y: auto;
+    border-right: 1px solid #dad9d9;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .canvas-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9;
+  }
+  
+  canvas {
+    width: 90%;
+    height: 70%;
+    border: 2px solid #000;
+  }
+  
+  .controls {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background: rgb(100, 150, 200);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background: rgb(50, 100, 150);
+  }
+  
